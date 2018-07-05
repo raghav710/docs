@@ -225,7 +225,7 @@ If we now run the file via
 node app.js
 ```
 
-We will see how the event handlers are logging the information of created and deleted message like this:
+We will see the event handlers logging the information of created and deleted message as below:
 
 ```
 Created a new message { id: 1, text: 'First message' }
@@ -236,4 +236,4 @@ Available messages [ { id: 1, text: 'First message' } ]
 
 ## What's next?
 
-In this chapter we learned about services as Feathers core concept for abstracting data operations. We also saw how a service sends events which we will use later to create real-time applications. First, we will look at [Feathers Hooks](./hooks.md) which is the other key part of how Feathers works.
+In this chapter we learnt about services as Feathers' core concept for abstracting data operations. We also saw how a service sends events which we will use later to create real-time applications. Before that, we will look at [Feathers Hooks](./hooks.md) which is the other key part of how Feathers works.
